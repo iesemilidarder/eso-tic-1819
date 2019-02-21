@@ -1,0 +1,12 @@
+<!-- extend base layout -->
+{% extends "layout.html" %}
+
+{% block content %}
+    <h1>Hello, {{ user.nickname }}!</h1>
+    {% for post in posts %}
+    <p>
+      {{ post.author.nickname }} says: <b>{{ post.body }}</b>
+    </p>
+    {% endfor %}
+{% endblock %}
+
