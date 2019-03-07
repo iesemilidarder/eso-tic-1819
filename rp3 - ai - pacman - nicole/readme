@@ -1,10 +1,15 @@
 Instructions:
 
+BASH commands:
+----------------
 sudo apt-get install python3-flask
+pip install Flask
 
+Execute program
+---------------
+python run.py
 
-$ pip install Flask
-$ FLASK_APP=hello.py flask run
+FLASK_APP=hello.py flask run
  * Running on http://localhost:5000/
 
 DOC

@@ -5,7 +5,7 @@ from app import app
 @app.route('/')
 @app.route('/index')
 def index():
-    user = {'nickname': 'Berto'}
+    user = {'nickname': 'Nicole'}
     posts = [
         {
             'author': {'nickname': 'Alum Post 1'},
